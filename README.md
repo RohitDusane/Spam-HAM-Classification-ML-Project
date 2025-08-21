@@ -28,17 +28,16 @@ This project uses **TF-IDF (Term Frequency-Inverse Document Frequency)** vectori
 2. **Data Preprocessing**: Cleaned and tokenized the text data.
 3. **TF-IDF Vectorization**: Converted the cleaned text data into numerical features using TF-IDF.
 4. **Model Training**: Trained multiple models (Logistic Regression, Random Forest, Decision Tree, XGBoost, Naive Bayes).
-5. **Voting Classifier**: Combined all the models into a final **Voting Classifier**.
-6. **Model Evaluation**: Evaluated the models using **accuracy**, **precision**, **recall**, and **F1-score**.
-7. **Flask App**: Developed a Flask web application to make predictions.
-8. **Deployment**: Deployed the Flask app on **Render** for real-time usage.
+5. **Model Evaluation**: Evaluated the models using **accuracy**, **precision**, **recall**, and **F1-score**.
+6. **Flask App**: Developed a Flask web application to make predictions.
+7. **Deployment**: Deployed the Flask app on **Render** for real-time usage.
 
 ## DIAGRAMS
 - **Data Preprocessing Flow**:  
   ![Data Preprocessing Flowchart](images/data_preprocessing_flow.png)
 
-- **Model Comparison**:  
-  ![Model Comparison](images/model_comparison.png)
+- **WORD CLOUD**:  
+  ![Word Cloud](/report/images/Figure_3_wordclouds.png)
 
 ## STATE YOUR PROCEDURE AND UNDERSTANDING FROM YOUR WORK
 1. **Preprocessing**: The text data was cleaned by removing unwanted characters, converting all text to lowercase, and stemming using **SnowballStemmer**. We also removed **stopwords** to enhance feature quality.
@@ -68,8 +67,23 @@ This project uses **TF-IDF (Term Frequency-Inverse Document Frequency)** vectori
 4. **Model Evaluation**:
    - Evaluated models using **classification_report** for accuracy, precision, recall, and F1-score.
    
-5. **Voting Classifier**:
-   - Combined all models using **VotingClassifier** for improved performance.
+5. **Model Performance Comparison**
+The following table summarizes the performance metrics of different machine learning models used in the spam classification project, along with the best hyperparameters for each model:
+
+| **Model** | **Train Accuracy** | **Test Accuracy** | **Precision (SPAM)** | **Recall (SPAM)** | **F1-Score (SPAM)** | **Best Params** |
+|-----------|--------------------|-------------------|----------------------|-------------------|---------------------|-----------------|
+| **Logistic Regression (LRC)** | 0.999 | 0.985 | 0.976 | 0.909 | 0.941 | `{'C': 100, 'max_iter': 100, 'penalty': 'l2'}` |
+| **Multinomial Naive Bayes (MNB)** | 0.990 | 0.985 | 0.983 | 0.902 | 0.941 | `{'alpha': 0.1}` |
+| **XGBoost (XGB)** | 0.991 | 0.967 | 0.922 | 0.811 | 0.863 | `{'learning_rate': 0.5, 'max_depth': 7, 'n_estimators': 50}` |
+| **Random Forest Classifier (RFC)** | 0.971 | 0.959 | 1.0 | 0.682 | 0.811 | `{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 100}` |
+
+### Key Insights:
+- The **Logistic Regression (LRC)** model achieved excellent **test accuracy** and **F1-score**, with the best performance in terms of **precision** and **recall**.
+- **Multinomial Naive Bayes (MNB)** had a very high **precision** and **F1-score** and performed well across the board.
+- **XGBoost (XGB)** had a slightly lower **test accuracy** compared to the other models, but it still performed well, particularly in terms of **precision**.
+- **Random Forest Classifier (RFC)** performed well in **precision** but had lower **recall** and **F1-score**.
+
+This table provides an overview of how each model performed in terms of both accuracy and classification metrics, along with the hyperparameters that were tuned for the best performance.
 
 6. **Flask App**:
    - Created a REST API using **Flask** to serve the model and make predictions.
@@ -112,10 +126,14 @@ I explored using multiple models and evaluated their performance to choose the b
 
 ## SCREENSHOTS
 1. **Prediction Interface**:
-   ![Prediction Interface](images/prediction_interface.png)
+- **Input 1**: "Congratulations! You've won a free iPhone!"
+  ![Prediction Interface](/report/images/SPAM.png)
+  
+- **Input 2**: "Hey, are we still on for dinner tomorrow?"
+  ![Prediction Interface](/report/images/HAM.png)
 
 2. **Model Evaluation**:
-   ![Model Evaluation](images/model_evaluation.png)
+   ![Model Evaluation](/report/images/ML_Tuned.png)
 
 ## CONCLUSION
 This project successfully builds and deploys a **spam classification model** using multiple machine learning algorithms, evaluated through performance metrics, and deployed via **Flask** on **Render**. The **Voting Classifier** ensures a higher accuracy by combining the strengths of multiple models. The real-time API implementation allows for efficient and easy deployment for production environments.
