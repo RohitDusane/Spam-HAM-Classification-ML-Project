@@ -42,10 +42,20 @@ def preprocess(text):
     snow=SnowballStemmer('english')
     stop_words = set(stopwords.words('english'))
 
-    text = re.sub('[^a-zA-Z]', ' ', text)
+    # text = re.sub('[^a-zA-Z]', ' ', text)
+    # text = text.lower()
+    # tokens = word_tokenize(text)
+    # tokens = [snow.stem(word) for word in tokens if word not in stop_words]
+    # return " ".join(tokens)
+
+    # Keep numbers and certain punctuation
+    text = re.sub('[^a-zA-Z0-9\\s]', ' ', text)  # Allow alphanumeric characters
     text = text.lower()
     tokens = word_tokenize(text)
+
+    # Optional: Keep important stopwords or keywords intact (like "now", "money", etc.)
     tokens = [snow.stem(word) for word in tokens if word not in stop_words]
+
     return " ".join(tokens)
 
 @app.route('/')
@@ -89,3 +99,5 @@ port = int(os.environ.get("PORT", 5000))
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=port)
+
+
