@@ -34,7 +34,7 @@ This project uses **TF-IDF (Term Frequency-Inverse Document Frequency)** vectori
 
 ## DIAGRAMS
 - **Data Preprocessing Flow**:  
-  ![Data Preprocessing Flowchart](images/data_preprocessing_flow.png)
+  ![Data Preprocessing Flowchart](report/images/data_preproces.png)
 
 - **WORD CLOUD**:  
   ![Word Cloud](/report/images/Figure_3_wordclouds.png)
