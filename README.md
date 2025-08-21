@@ -70,12 +70,13 @@ This project uses **TF-IDF (Term Frequency-Inverse Document Frequency)** vectori
 5. **Model Performance Comparison**
 The following table summarizes the performance metrics of different machine learning models used in the spam classification project, along with the best hyperparameters for each model:
 
-| **Model** | **Train Accuracy** | **Test Accuracy** | **Precision (SPAM)** | **Recall (SPAM)** | **F1-Score (SPAM)** | **Best Params** |
-|-----------|--------------------|-------------------|----------------------|-------------------|---------------------|-----------------|
-| **Logistic Regression (LRC)** | 0.999 | 0.985 | 0.976 | 0.909 | 0.941 | `{'C': 100, 'max_iter': 100, 'penalty': 'l2'}` |
-| **Multinomial Naive Bayes (MNB)** | 0.990 | 0.985 | 0.983 | 0.902 | 0.941 | `{'alpha': 0.1}` |
-| **XGBoost (XGB)** | 0.991 | 0.967 | 0.922 | 0.811 | 0.863 | `{'learning_rate': 0.5, 'max_depth': 7, 'n_estimators': 50}` |
-| **Random Forest Classifier (RFC)** | 0.971 | 0.959 | 1.0 | 0.682 | 0.811 | `{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 100}` |
+| **Model**                             | **Train Accuracy** | **Test Accuracy** | **Precision (SPAM)** | **Recall (SPAM)** | **F1-Score (SPAM)** | **Best Params**                                                                 |
+|---------------------------------------|--------------------|-------------------|----------------------|-------------------|---------------------|---------------------------------------------------------------------------------|
+| **Multinomial Naive Bayes (MNB)**    | 0.990              | 0.988             | 0.984                | 0.924             | 0.953               | `{'alpha': 0.1}`                                                               |
+| **Logistic Regression (LRC)**         | 0.999              | 0.986             | 0.976                | 0.917             | 0.945               | `{'C': 0.1, 'max_iter': 100, 'penalty': None, 'solver': 'saga'}`               |
+| **XGBoost (XGB)**                    | 0.990              | 0.968             | 0.916                | 0.826             | 0.869               | `{'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 100}`                 |
+| **Random Forest Classifier (RFC)**   | 0.972              | 0.956             | 1.0                  | 0.659             | 0.795               | `{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 100}`               |
+
 
 6. **Flask App**:
    - Created a REST API using **Flask** to serve the model and make predictions.
