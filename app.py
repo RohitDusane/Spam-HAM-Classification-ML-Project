@@ -69,8 +69,12 @@ def predict():
             return jsonify({'error': 'Empty message'}), 400
 
         cleaned = preprocess(message)
+        print(f"Processed Text: {cleaned}")  # Debugging line
         vect_msg = vectorizer.transform([cleaned]).toarray()
+        print(f"Vectorized Text: {vect_msg}")  # Debugging line
+
         prediction = model.predict(vect_msg)[0]
+        print(f"Prediction: {prediction}")  # Debugging line
 
         return render_template('index.html', prediction="SPAM" if prediction == 1 else "HAM")
 
