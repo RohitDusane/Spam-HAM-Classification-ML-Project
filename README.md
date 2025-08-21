@@ -1,7 +1,7 @@
 # Spam Classification Model with Multiple Machine Learning Algorithms
 
 ## GOAL
-The goal of this project is to develop a **spam classification model** that can classify SMS messages as either **spam** or **ham** (not spam). The project uses multiple machine learning models like **Logistic Regression**, **Random Forest**, **Decision Tree**, **XGBoost**, **Multinomial Naive Bayes**, and **Voting Classifier** to obtain the final model, which is then deployed using a **Flask app** on **Render** for real-time predictions.
+The goal of this project is to develop a **spam classification model** that can classify SMS messages as either **spam** or **ham** (not spam). The project uses multiple machine learning models like **Logistic Regression**, **Random Forest**, **Decision Tree**, **XGBoost**, and **Multinomial Naive Bayes** to obtain the final model, which is then deployed using a **Flask app** on **Render** for real-time predictions.
 
 ## PURPOSE
 The purpose of this project is to explore different machine learning models and their performance in spam classification tasks, then deploy the final model in a Flask web application so that it can classify messages dynamically via API requests.
@@ -13,14 +13,14 @@ The dataset used in this project is the **SMS Spam Collection Dataset**, availab
 This dataset contains labeled SMS messages with two classes: **spam** and **ham**.
 
 ## DESCRIPTION
-This project uses **TF-IDF (Term Frequency-Inverse Document Frequency)** vectorization to convert SMS text messages into numerical features. We then apply multiple machine learning models (Logistic Regression, Random Forest, Decision Tree, XGBoost, Multinomial Naive Bayes) and combine their results using a **Voting Classifier** to create a final predictive model. The model is then deployed in a Flask app, making it available for real-time predictions.
+This project uses **TF-IDF (Term Frequency-Inverse Document Frequency)** vectorization to convert SMS text messages into numerical features. We then apply multiple machine learning models (Logistic Regression, Random Forest, Decision Tree, XGBoost, Multinomial Naive Bayes) and compare their results. The model with highest **F1-Score** metrics is used  (**Multinomial Naive Bayes**) to create a `final predictive model`. The model is then deployed in a Flask app, making it available for real-time predictions.
 
 ## WHAT I HAD DONE
 - Acquired and loaded the dataset.
 - Cleaned and preprocessed the text data (lowercasing, removing stop words, stemming).
 - Applied **TF-IDF** vectorization to transform text into numerical features.
 - Implemented multiple machine learning algorithms (Logistic Regression, Random Forest, Decision Tree, XGBoost, Multinomial Naive Bayes).
-- Combined the models using **Voting Classifier** to create the final predictive model.
+- Compared the models using **F1-Scorring** and choose the highest scored model to create the final predictive model.
 - Developed a **Flask API** to serve the model and deployed it on **Render**.
 
 ## WORKFLOW OF YOUR PROJECT FILES
@@ -42,12 +42,11 @@ This project uses **TF-IDF (Term Frequency-Inverse Document Frequency)** vectori
 ## STATE YOUR PROCEDURE AND UNDERSTANDING FROM YOUR WORK
 1. **Preprocessing**: The text data was cleaned by removing unwanted characters, converting all text to lowercase, and stemming using **SnowballStemmer**. We also removed **stopwords** to enhance feature quality.
 2. **TF-IDF Vectorization**: I chose **TF-IDF** for feature extraction because it captures the importance of words within documents in relation to the entire corpus, making it a strong technique for text classification tasks.
-3. **Model Selection**: I experimented with multiple classifiers and found that combining models using a **Voting Classifier** increased prediction accuracy.
+3. **Model Selection**: I experimented with multiple classifiers and found that using a **Multinomial NB** increased prediction f1-score (highest).
 4. **Deployment**: I used **Flask** to wrap the final model into an API and deployed it on **Render** for real-time access.
    
 ### What I learned:
 - Different models can have varying levels of performance on the same dataset.
-- Combining multiple models through a **Voting Classifier** improves the overall prediction power.
 
 ## DETAILED EXPLANATION OF SCRIPT, IF APPLICABLE
 1. **Data Preprocessing**:
@@ -113,7 +112,7 @@ The issue of **spam classification** is important in filtering out unwanted mess
 4. **Social Media**: Detect spam or malicious messages on platforms like Twitter, Facebook, etc.
 
 ## RESEARCH
-I have researched various spam detection techniques and found that using **TF-IDF** with models like **Logistic Regression** and **XGBoost** yields great results for spam classification tasks. 
+I have researched various spam detection techniques and found that using **TF-IDF** with models like **Multinomial Naive Bayes, Logistic Regression** and **XGBoost** yields great results for spam classification tasks. 
 
 I explored using multiple models and evaluated their performance to choose the best approach for this problem.
 
@@ -129,7 +128,7 @@ I explored using multiple models and evaluated their performance to choose the b
    ![Model Evaluation](/report/images/ML_Tuned.png)
 
 ## CONCLUSION
-This project successfully builds and deploys a **spam classification model** using multiple machine learning algorithms, evaluated through performance metrics, and deployed via **Flask** on **Render**. The **Voting Classifier** ensures a higher accuracy by combining the strengths of multiple models. The real-time API implementation allows for efficient and easy deployment for production environments.
+This project successfully builds and deploys a **spam classification model** using multiple machine learning algorithms, evaluated through performance metrics, and deployed via **Flask** on **Render**. The **Multinomial Naive Bayes** ensures a higher F1-Score amongest the models. The real-time API implementation allows for efficient and easy deployment for production environments.
 
 ## REFERENCES
 1. **Scikit-learn Documentation**: https://scikit-learn.org/stable/
