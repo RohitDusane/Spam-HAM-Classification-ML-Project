@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/464915628175258160/fcd65660f57441d491dd1f8709009271/artifacts
+end_time: 1755691459147
+entry_point_name: ''
+experiment_id: '464915628175258160'
+lifecycle_stage: active
+run_id: fcd65660f57441d491dd1f8709009271
+run_name: selective-shoat-596
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755691444566
+status: 3
+tags: []
+user_id: ADMIN

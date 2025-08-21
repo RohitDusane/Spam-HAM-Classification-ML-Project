@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/479771705764464905/c37c47a235c54615a15d362089623894/artifacts
+end_time: 1755690915525
+entry_point_name: ''
+experiment_id: '479771705764464905'
+lifecycle_stage: active
+run_id: c37c47a235c54615a15d362089623894
+run_name: rare-wasp-884
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755690905695
+status: 3
+tags: []
+user_id: ADMIN

@@ -1,0 +1,10 @@
+artifact_location: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/479771705764464905/models/m-413b5dd9e5a94e99b142dcdb87d439a3/artifacts
+creation_timestamp: 1755690872123
+experiment_id: '479771705764464905'
+last_updated_timestamp: 1755690880377
+model_id: m-413b5dd9e5a94e99b142dcdb87d439a3
+model_type: null
+name: mnb_model
+source_run_id: aaea27801717451eb14f70a0a8232d95
+status: 2
+status_message: null

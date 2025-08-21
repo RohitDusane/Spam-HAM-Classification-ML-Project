@@ -1,0 +1,10 @@
+artifact_location: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/479771705764464905/models/m-a22addde0b5e43a6a63613b95ac19c5c/artifacts
+creation_timestamp: 1755690920844
+experiment_id: '479771705764464905'
+last_updated_timestamp: 1755690929578
+model_id: m-a22addde0b5e43a6a63613b95ac19c5c
+model_type: null
+name: xgb_model
+source_run_id: c5718ad3b2134949b897b6119063e7d7
+status: 2
+status_message: null

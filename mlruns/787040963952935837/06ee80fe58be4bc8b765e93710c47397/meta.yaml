@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/787040963952935837/06ee80fe58be4bc8b765e93710c47397/artifacts
+end_time: 1755690713466
+entry_point_name: ''
+experiment_id: '787040963952935837'
+lifecycle_stage: active
+run_id: 06ee80fe58be4bc8b765e93710c47397
+run_name: nosy-shoat-120
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755690700677
+status: 3
+tags: []
+user_id: ADMIN

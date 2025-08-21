@@ -1,0 +1,10 @@
+artifact_location: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/787040963952935837/models/m-896bf29e901942feb29a7389b2216dad/artifacts
+creation_timestamp: 1755690784768
+experiment_id: '787040963952935837'
+last_updated_timestamp: 1755690793160
+model_id: m-896bf29e901942feb29a7389b2216dad
+model_type: null
+name: abc_model
+source_run_id: feb9dd4f4f4c41a38ddfe695ce30c043
+status: 2
+status_message: null

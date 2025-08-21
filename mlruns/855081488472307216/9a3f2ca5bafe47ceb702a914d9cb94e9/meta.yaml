@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/855081488472307216/9a3f2ca5bafe47ceb702a914d9cb94e9/artifacts
+end_time: 1755690953557
+entry_point_name: ''
+experiment_id: '855081488472307216'
+lifecycle_stage: active
+run_id: 9a3f2ca5bafe47ceb702a914d9cb94e9
+run_name: likeable-owl-615
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755690930666
+status: 3
+tags: []
+user_id: ADMIN

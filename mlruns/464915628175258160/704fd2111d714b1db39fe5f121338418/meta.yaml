@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/464915628175258160/704fd2111d714b1db39fe5f121338418/artifacts
+end_time: 1755691521587
+entry_point_name: ''
+experiment_id: '464915628175258160'
+lifecycle_stage: active
+run_id: 704fd2111d714b1db39fe5f121338418
+run_name: monumental-pug-463
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755691510038
+status: 3
+tags: []
+user_id: ADMIN

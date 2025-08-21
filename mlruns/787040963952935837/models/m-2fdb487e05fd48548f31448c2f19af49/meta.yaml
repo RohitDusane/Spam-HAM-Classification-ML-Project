@@ -1,0 +1,10 @@
+artifact_location: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/787040963952935837/models/m-2fdb487e05fd48548f31448c2f19af49/artifacts
+creation_timestamp: 1755690715976
+experiment_id: '787040963952935837'
+last_updated_timestamp: 1755690724546
+model_id: m-2fdb487e05fd48548f31448c2f19af49
+model_type: null
+name: dtc_model
+source_run_id: 7b1b628d388d4c6b8cb8da133700c6b3
+status: 2
+status_message: null

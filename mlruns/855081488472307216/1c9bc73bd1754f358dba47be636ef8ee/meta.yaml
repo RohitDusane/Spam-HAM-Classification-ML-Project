@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/855081488472307216/1c9bc73bd1754f358dba47be636ef8ee/artifacts
+end_time: 1755691397919
+entry_point_name: ''
+experiment_id: '855081488472307216'
+lifecycle_stage: active
+run_id: 1c9bc73bd1754f358dba47be636ef8ee
+run_name: calm-shad-345
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755691079104
+status: 3
+tags: []
+user_id: ADMIN

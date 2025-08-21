@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/855081488472307216/94e1e4614b2d4e6696f5f9da7b2af441/artifacts
+end_time: 1755691079082
+entry_point_name: ''
+experiment_id: '855081488472307216'
+lifecycle_stage: active
+run_id: 94e1e4614b2d4e6696f5f9da7b2af441
+run_name: shivering-duck-769
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755691044144
+status: 3
+tags: []
+user_id: ADMIN

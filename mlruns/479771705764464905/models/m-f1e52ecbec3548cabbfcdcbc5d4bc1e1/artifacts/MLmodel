@@ -1,0 +1,22 @@
+artifact_path: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/479771705764464905/models/m-f1e52ecbec3548cabbfcdcbc5d4bc1e1/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.2.0
+model_id: m-f1e52ecbec3548cabbfcdcbc5d4bc1e1
+model_size_bytes: 24724
+model_uuid: m-f1e52ecbec3548cabbfcdcbc5d4bc1e1
+prompts: null
+run_id: c37c47a235c54615a15d362089623894
+utc_time_created: '2025-08-20 11:55:06.213211'

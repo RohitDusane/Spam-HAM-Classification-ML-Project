@@ -1,0 +1,10 @@
+artifact_location: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/787040963952935837/models/m-54318af17c6a4cd59d0e7e1316574f60/artifacts
+creation_timestamp: 1755690750255
+experiment_id: '787040963952935837'
+last_updated_timestamp: 1755690758241
+model_id: m-54318af17c6a4cd59d0e7e1316574f60
+model_type: null
+name: rfc_model
+source_run_id: d1397ce602324015881db432cedee501
+status: 2
+status_message: null

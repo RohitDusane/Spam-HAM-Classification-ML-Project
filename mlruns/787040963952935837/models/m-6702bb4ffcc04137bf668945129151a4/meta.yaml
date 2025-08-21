@@ -1,0 +1,10 @@
+artifact_location: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/787040963952935837/models/m-6702bb4ffcc04137bf668945129151a4/artifacts
+creation_timestamp: 1755690845145
+experiment_id: '787040963952935837'
+last_updated_timestamp: 1755690856577
+model_id: m-6702bb4ffcc04137bf668945129151a4
+model_type: null
+name: gbdt_model
+source_run_id: c0c8db36e56f40209c3f289c9d78226b
+status: 2
+status_message: null

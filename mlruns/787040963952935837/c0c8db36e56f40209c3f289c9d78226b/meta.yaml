@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/787040963952935837/c0c8db36e56f40209c3f289c9d78226b/artifacts
+end_time: 1755690857262
+entry_point_name: ''
+experiment_id: '787040963952935837'
+lifecycle_stage: active
+run_id: c0c8db36e56f40209c3f289c9d78226b
+run_name: unequaled-whale-649
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755690794676
+status: 3
+tags: []
+user_id: ADMIN

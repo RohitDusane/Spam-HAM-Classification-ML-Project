@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/464915628175258160/e919ec1d9f2743ff8c205d66158b902e/artifacts
+end_time: 1755691444550
+entry_point_name: ''
+experiment_id: '464915628175258160'
+lifecycle_stage: active
+run_id: e919ec1d9f2743ff8c205d66158b902e
+run_name: resilient-gnat-559
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755691435052
+status: 3
+tags: []
+user_id: ADMIN

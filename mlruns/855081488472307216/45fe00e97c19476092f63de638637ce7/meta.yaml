@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/855081488472307216/45fe00e97c19476092f63de638637ce7/artifacts
+end_time: 1755691044119
+entry_point_name: ''
+experiment_id: '855081488472307216'
+lifecycle_stage: active
+run_id: 45fe00e97c19476092f63de638637ce7
+run_name: righteous-croc-580
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755690953585
+status: 3
+tags: []
+user_id: ADMIN

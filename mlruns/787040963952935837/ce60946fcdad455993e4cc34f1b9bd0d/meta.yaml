@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/787040963952935837/ce60946fcdad455993e4cc34f1b9bd0d/artifacts
+end_time: 1755690871567
+entry_point_name: ''
+experiment_id: '787040963952935837'
+lifecycle_stage: active
+run_id: ce60946fcdad455993e4cc34f1b9bd0d
+run_name: zealous-mink-982
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755690857284
+status: 3
+tags: []
+user_id: ADMIN

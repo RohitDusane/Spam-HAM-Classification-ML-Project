@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/479771705764464905/c5718ad3b2134949b897b6119063e7d7/artifacts
+end_time: 1755690930226
+entry_point_name: ''
+experiment_id: '479771705764464905'
+lifecycle_stage: active
+run_id: c5718ad3b2134949b897b6119063e7d7
+run_name: gentle-lark-337
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755690915541
+status: 3
+tags: []
+user_id: ADMIN

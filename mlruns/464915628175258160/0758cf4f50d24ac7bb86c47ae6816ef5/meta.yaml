@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/464915628175258160/0758cf4f50d24ac7bb86c47ae6816ef5/artifacts
+end_time: 1755691407835
+entry_point_name: ''
+experiment_id: '464915628175258160'
+lifecycle_stage: active
+run_id: 0758cf4f50d24ac7bb86c47ae6816ef5
+run_name: hilarious-shark-355
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755691398054
+status: 3
+tags: []
+user_id: ADMIN

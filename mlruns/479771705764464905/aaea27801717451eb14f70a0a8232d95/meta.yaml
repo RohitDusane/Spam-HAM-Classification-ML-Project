@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/479771705764464905/aaea27801717451eb14f70a0a8232d95/artifacts
+end_time: 1755690880915
+entry_point_name: ''
+experiment_id: '479771705764464905'
+lifecycle_stage: active
+run_id: aaea27801717451eb14f70a0a8232d95
+run_name: unique-panda-487
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755690871716
+status: 3
+tags: []
+user_id: ADMIN

@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/787040963952935837/b1fa28a6cd18460b9f2b62e7fd3faab3/artifacts
+end_time: 1755690735351
+entry_point_name: ''
+experiment_id: '787040963952935837'
+lifecycle_stage: active
+run_id: b1fa28a6cd18460b9f2b62e7fd3faab3
+run_name: crawling-donkey-584
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755690725164
+status: 3
+tags: []
+user_id: ADMIN

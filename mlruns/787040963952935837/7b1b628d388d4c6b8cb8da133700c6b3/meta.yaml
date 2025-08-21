@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/787040963952935837/7b1b628d388d4c6b8cb8da133700c6b3/artifacts
+end_time: 1755690725148
+entry_point_name: ''
+experiment_id: '787040963952935837'
+lifecycle_stage: active
+run_id: 7b1b628d388d4c6b8cb8da133700c6b3
+run_name: whimsical-donkey-85
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755690713483
+status: 3
+tags: []
+user_id: ADMIN

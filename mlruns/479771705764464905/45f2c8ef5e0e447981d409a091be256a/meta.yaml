@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/_DataScienc_KNaik/NLP/Spam_HAM/mlruns/479771705764464905/45f2c8ef5e0e447981d409a091be256a/artifacts
+end_time: 1755690905679
+entry_point_name: ''
+experiment_id: '479771705764464905'
+lifecycle_stage: active
+run_id: 45f2c8ef5e0e447981d409a091be256a
+run_name: legendary-sow-180
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755690880931
+status: 3
+tags: []
+user_id: ADMIN
