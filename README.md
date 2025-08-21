@@ -77,14 +77,6 @@ The following table summarizes the performance metrics of different machine lear
 | **XGBoost (XGB)** | 0.991 | 0.967 | 0.922 | 0.811 | 0.863 | `{'learning_rate': 0.5, 'max_depth': 7, 'n_estimators': 50}` |
 | **Random Forest Classifier (RFC)** | 0.971 | 0.959 | 1.0 | 0.682 | 0.811 | `{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 100}` |
 
-### Key Insights:
-- The **Logistic Regression (LRC)** model achieved excellent **test accuracy** and **F1-score**, with the best performance in terms of **precision** and **recall**.
-- **Multinomial Naive Bayes (MNB)** had a very high **precision** and **F1-score** and performed well across the board.
-- **XGBoost (XGB)** had a slightly lower **test accuracy** compared to the other models, but it still performed well, particularly in terms of **precision**.
-- **Random Forest Classifier (RFC)** performed well in **precision** but had lower **recall** and **F1-score**.
-
-This table provides an overview of how each model performed in terms of both accuracy and classification metrics, along with the hyperparameters that were tuned for the best performance.
-
 6. **Flask App**:
    - Created a REST API using **Flask** to serve the model and make predictions.
 
