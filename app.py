@@ -13,11 +13,11 @@ from nltk.stem import SnowballStemmer
 app = Flask(__name__)
 
 # Load saed model and vectorizer
-model_path = os.path.join('Spam_HAM', 'models', 'lrc_FM_model.pkl')
+model_path = os.path.join('models', 'final_model.pkl')
 with open(model_path, 'rb') as file:
     model = pickle.load(file)
 
-vect_path = os.path.join('Spam_HAM', 'models', 'vectorizer.pkl')
+vect_path = os.path.join('models', 'vectorizer.pkl')
 with open(vect_path, 'rb') as file:
     vectorizer = pickle.load(file)
 
