@@ -128,7 +128,7 @@ This project successfully builds and deploys a **spam classification model** usi
 
 ## YOUR NAME
 ROHIT R DUSANE   
-GitHub: ['Github'](https://github.com/RohitDusane)  
+GitHub: ['MY GITHUB'](https://github.com/RohitDusane)  
 
 
 ## DISCLAIMER, IF ANY
