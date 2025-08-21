@@ -2,15 +2,26 @@ from flask import Flask, request, jsonify, render_template
 import re, os
 import pickle
 import nltk
-import nltk
-
+# Ensure necessary NLTK resources are available
 try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
     nltk.download('punkt_tab')
+
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords')
+
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import SnowballStemmer
+
 
 
 
